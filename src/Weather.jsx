@@ -5,10 +5,10 @@ const Weather = () => {
     const [city, setCity] = useState('');
     const [weather, setWeather] = useState(null);
     const [forecast, setForecast] = useState(null);
-    const monthNames = [
-        "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-    ];
+    // const monthNames = [
+    //     "January", "February", "March", "April", "May", "June",
+    //     "July", "August", "September", "October", "November", "December"
+    // ];
 
     const fetchWeather = async () => {
         if (city.trim() === '') return;
